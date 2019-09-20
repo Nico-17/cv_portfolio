@@ -1,0 +1,56 @@
+@media screen and (max-width: 1420px){
+    img{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 1110px){
+    img{
+        margin-left:0;
+    }
+}
+@media screen and (max-width: 1020px){
+    .main{
+        flex-direction: column;
+    }
+    img{
+        margin-left: 20px;
+    }
+    .sidebar{
+        display: flex; 
+        width: 100%;
+        justify-content: space-around;
+    }
+    .top-page{
+        text-align: center;
+    }
+    .content{
+        width: 100%;
+        margin-left: 10px;
+    }
+    hr{
+        display: none;
+    }
+    .work-experience p{
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 760px){
+    .sidebar{
+        flex-direction: column;
+    }
+    hr{
+        display: block;
+    }
+    img{
+    display: none;
+    }
+    .tb-f{
+        display: none;
+    }
+}
+@media screen and (max-width: 430px){
+    .work-experience h2, .formation h2{
+        margin-right: 20px;
+        text-align: center;
+    }
+}

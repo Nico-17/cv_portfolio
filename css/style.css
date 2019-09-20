@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.content{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 80%;
+}
+.sidebar{
+    background: #232C39;
+    width: 20%;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Mali', cursive;
+}
+.contact , .competences, .outils{
+    padding-left: 15px;
+}
+.sidebar h2,.sidebar p{
+    color: rgb(196, 201, 204);
+    padding-bottom: 20px;
+}
+.traitnoir{
+    height: 3px;
+    color: black;
+    background: black;
+    margin: 15px 0;
+}
+.traitblanc{
+    height: 3px;
+    color: white;
+    background: white;
+    margin: 10px 5px 10px 5px;
+}
+.top-page{
+    margin: 50px 20px 50px 0;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+}
+.sidebar h2{
+    text-align: center;
+
+}
+.btn{
+    border: 1px solid #232C39;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #232C39;
+    color: white;
+    padding: 4px;
+}
+.btn:hover{
+    color: #232C39;
+    background: white;
+
+}
+.top-page p{
+    margin-bottom: 10px;
+}
+p, a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+.content h2,.content h3,.content h4, .content h5{
+    margin: 10px 0;
+}
+.content h1,.content h2,.content h3{
+    color: rgb(39, 37, 37);
+}
+h1{
+    font-size: 2.5em;
+}
+h4{
+    color: rgb(55, 105, 182);
+}
+h5{
+    color: rgb(158, 150, 150);
+}
+.work-experience p{
+    margin-bottom: 15px;
+}
+img{
+    border-radius: 100px ;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+i{
+    color: rgb(196, 201, 204);
+    margin-right: 5px;
+}
+.img-resp{
+    display: none;
+}
